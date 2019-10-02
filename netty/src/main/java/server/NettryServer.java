@@ -8,9 +8,7 @@ import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 
-/**
- * 服务端
- */
+
 public class NettryServer {
     public static void main(String[] args) throws Exception{
         EventLoopGroup bossGroup = new NioEventLoopGroup();
